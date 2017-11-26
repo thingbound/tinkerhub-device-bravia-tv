@@ -1,6 +1,6 @@
 {
   "name": "tinkerhub-device-bravia-tv",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Tinkerhub support for Sony Bravia TVs",
   "repository": "tinkerhub/tinkerhub-device-bravia-tv",
   "license": "MIT",
