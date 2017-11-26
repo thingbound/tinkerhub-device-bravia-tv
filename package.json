@@ -7,25 +7,23 @@
   "main": "lib/index.js",
   "keywords": [
     "tinkerhub",
-    "tinkerhub-device",
+    "tinkerhub-plugin",
     "sony",
     "bravia"
   ],
   "scripts": {
-    "prepublish": "node_modules/.bin/eslint lib",
     "test": "node_modules/.bin/eslint lib"
   },
-  "peerDependencies": {
-    "tinkerhub": "^1.0.0"
-  },
   "dependencies": {
-    "html-entities": "^1.2.0",
+    "appliances": "^0.2.0",
+    "html-entities": "^1.2.1",
     "lodash.kebabcase": "^4.1.1",
-    "node-fetch": "^1.6.3",
-    "tinkerhub-upnp": "^0.1.0"
+    "node-fetch": "^1.7.3",
+    "tinkerhub": "^2.0.0",
+    "tinkerhub-upnp": "^0.2.0"
   },
   "devDependencies": {
-    "eslint": "^3.11.1",
-    "eslint-plugin-node": "^3.0.5"
+    "eslint": "^4.11.0",
+    "eslint-plugin-node": "^5.2.1"
   }
 }

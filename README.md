@@ -5,9 +5,9 @@ Tinkerhub network.
 
 ## Installation and setup
 
-To install in your local project:
+When running [tinkerhubd](https://github.com/tinkerhub/tinkerhub-daemon) install via:
 
-`npm install --save tinkerhub-device-bravia-tv`
+`tinkerhubd install device-bravia-tv`
 
 All TVs found will be exposed as devices of type `bravia-tv` (and `tv` as a
 secondary type). You will need to authenticate with your TV, you can do this
